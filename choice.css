@@ -34,5 +34,19 @@ textarea {
     font-family: inherit;
     padding: 10px;
     margin:  0 0 20px;
-    
+    font-size: 16px;
+}
+
+.tag {
+    background-color: #f0932b;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.tag.highlight {
+    background-color: #273c75;
 }
