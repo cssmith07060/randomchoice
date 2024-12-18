@@ -20,6 +20,7 @@ function createTags(input) {
     !== ``).map(tag => tag.trim())
     
     tags.innerHTML = ''
+    
     tags.forEach(tag => {
         const tagEl = document.createElement('span')
         tagEl.Classlist.add('tag')
@@ -36,4 +37,7 @@ function randomSelect() {
         const tags = document.querySelectorAll('.tag')
         return tags [Math.floor(Math.random() * tags.length)]
     }
+
+    function unHiglightTag(tag) {
+        tag.ClassList.remove
 }
